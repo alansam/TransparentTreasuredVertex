@@ -7,6 +7,12 @@
 #include <typeinfo>
 #include <cxxabi.h>
 
+//  MARK: - References.
+//  @see: https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new/28841507
+
+/*
+ *  MARK: main()
+ */
 int main() {
   std::cout << "Hello World!" << std::endl;
   std::unique_ptr<std::string> s_p(new std::string("Greeting"));
